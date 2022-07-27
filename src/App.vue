@@ -1,16 +1,16 @@
 <template>
     <div id="app">
-        <OpenSeadragon/>
+        <Demo/>
     </div>
 </template>
 
 <script>
-    import OpenSeadragon from "@/components/OpenSeadragon";
-
+    // import OpenSeadragon from "@/components/OpenSeadragon";
+    import Demo from "@/components/Demo";
     export default {
         name: 'app',
         components: {
-            OpenSeadragon,
+            Demo
         }
     }
 </script>
