@@ -100,6 +100,7 @@
       window.onresize = () => {
         overlay.resize();
         overlay.resizecanvas();
+        
       }
     }
   }
